@@ -12,6 +12,8 @@ class Landscapes extends Model
         'title',
         'description',
         'img',
-        'featured'
+        'featured',
+        'user_id',
+        'date'
     ];
 }

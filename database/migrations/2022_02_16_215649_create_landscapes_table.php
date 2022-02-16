@@ -20,6 +20,7 @@ class CreateLandscapesTable extends Migration
             $table->string("img");
             $table->boolean("featured");
             $table->integer("user_id");
+            $table->string("date");
             $table->timestamps();
         });
     }
